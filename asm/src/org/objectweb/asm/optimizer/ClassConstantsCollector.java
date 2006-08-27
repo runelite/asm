@@ -140,7 +140,7 @@ public class ClassConstantsCollector extends ClassAdapter {
             cp.newClass(outerName);
         }
         if (innerName != null) {
-            cp.newUTF8(innerName);
+            cp.newClass(innerName);
         }
         cv.visitInnerClass(name, outerName, innerName, access);
     }
