@@ -14,6 +14,24 @@
 
     <s1 name="History">
 
+     <subtitle>15 May 2015: ASM 5.0.4 (svn-tag: ASM_5_0_4)</subtitle>
+
+        <ul>
+            <li>bug fixes
+            <ul>
+                 <li>Use the pattern .&lt;methodname&gt;&lt;methoddesc&gt; to specify mapInvokeDynamicMethodName remappings in SimpleRemapper.</li>
+                 <li>317555: NPE in MethodWriter.resizeInstructions().</li>
+                 <li>317548: Mistakes in API documentation of MethodVisitor and SignatureVisitor.</li>
+                 <li>317545: Asm eat linenumbers if there are several of them on one label.</li>
+                 <li>317539: TypePath not adequately supporting types w/ >10 type arguments.</li>
+                 <li>317538: AnnotationNode in ASM 5.0.3 does not handle null returned from AnnotationVisitor correctly.</li>
+                 <li>Bug fix in GeneratorAdapter.catchException.</li>
+                 <li>317534: Modernize ASM code: replace new WrapperType() by autoboxing.</li>
+                 <li>317533: MethodInsnNode.accept() doesn't call acceptAnnotations().</li>
+             </ul>
+            </li>
+        </ul>
+
      <subtitle>21 April 2014: ASM 5.0.2 (svn-tag: ASM_5_0_2)</subtitle>
 
         <ul>
