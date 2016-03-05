@@ -14,6 +14,27 @@
 
     <s1 name="History">
 
+     <subtitle>5 March 2016: ASM 5.1 (svn-tag: ASM_5_1)</subtitle>
+
+        <ul>
+            <li>Remapping...Adapter classes are now deprecated, replaced with ...Remapper classes.</li>
+            <li>Add support for method reference on an interface.</li>
+            <li>bug fixes
+            <ul>
+                 <li>317567: SerialVersionUIDAdder issues.</li>
+                 <li>317578: incorrect max code size check in MethodWriter getSize().</li>
+                 <li>317579: Signature Process in SignatureRemapper is Broken.</li>
+                 <li>317581: Import-Package headers should denote version by setting the version attribute.</li>
+                 <li>317586: VerifyError caused by LocalVariablesSorter.</li>
+                 <li>317602: Asmifier does not recognize null value for TypePath.</li>
+                 <li>317604: Bug in AdviceAdapter.visitFieldInsn().</li>
+
+                 <li>317607: Calling add or set on an InsnListIterator throws NPE when at end of list.</li>
+                 <li>317606: Frequent use of StringBuffer instead of StringBuilder is hurting performance.</li>
+             </ul>
+            </li>
+        </ul>
+
      <subtitle>15 May 2015: ASM 5.0.4 (svn-tag: ASM_5_0_4)</subtitle>
 
         <ul>
@@ -653,7 +674,7 @@
           time as the Fractal project. Since then, many external contributions
           have been done to the project. The most important contributors are
           now part of the ASM team, namely Eugene Kuleshov (since 2003),
-          Andrei Loskutov (since 2004) and Rémi Forax (since 2008).</li>
+          Andrei Loskutov (since 2004) and RÃ©mi Forax (since 2008).</li>
         </ul>
 
     </s1>
