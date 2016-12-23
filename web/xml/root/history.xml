@@ -14,6 +14,24 @@
 
     <s1 name="History">
 
+     <subtitle>23 December 2016: ASM 5.2 (svn-tag: ASM_5_2)</subtitle>
+
+        <ul>
+            <li>Better comments in Opcodes.java</li>
+            <li>SuppressWarnings in Opcodes.java for Integer constructor deprecation.</li>
+            <li>More tests to check binary backward compatibility</li>
+            <li>bug fixes
+            <ul>
+                 <li>317616: Misleading comment in ClassWriter</li>
+                 <li>317621: Type.getReturnType(desc) returns wrong for types with parenthesis in name</li>
+                 <li>317749: ClassCheckAdapter should discover invocation of default method from pre-Java 8 class file</li>
+                 <li>317626: AnnotationNode incorrectly process array values in 'visit(final String name, final Object value)' method</li>
+                 <li>317630: Frames are re-calculated for Large Methods</li>
+                 <li>317748: Class after instrumenting loses first BootstrapMethods entry</li>
+             </ul>
+            </li>
+        </ul>
+
      <subtitle>5 March 2016: ASM 5.1 (svn-tag: ASM_5_1)</subtitle>
 
         <ul>
@@ -674,7 +692,7 @@
           time as the Fractal project. Since then, many external contributions
           have been done to the project. The most important contributors are
           now part of the ASM team, namely Eugene Kuleshov (since 2003),
-          Andrei Loskutov (since 2004) and Rémi Forax (since 2008).</li>
+          Andrei Loskutov (since 2004) and RÃ©mi Forax (since 2008).</li>
         </ul>
 
     </s1>
